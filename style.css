@@ -16,3 +16,86 @@
   border-radius: 50%;
   margin-top: -15%;
 }
+h1 {
+  font-size: 50px;
+  color: aqua;
+}
+h4 {
+  font-size: 30px;
+  margin-top: -40px;
+  color: aqua;
+  font-family: Arial, sans-serif;
+}
+
+.full-width {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.link-button {
+  text-decoration: none;
+  background-image: linear-gradient(orange, tomato);
+  padding: 10px 20px;
+  color: white;
+  margin-right: 5%;
+  border-radius: 10px;
+}
+.contact-button {
+  text-decoration: none;
+  background-image: linear-gradient(blue, cyan);
+  padding: 10px 20px;
+  color: white;
+  border-radius: 10px;
+}
+.my-about p {
+  flex: 0 0 40%;
+  margin-left: 0;
+  padding-right: 5%;
+}
+.design-about {
+  margin-left: 1%;
+  padding-right: 60%;
+}
+
+.left-right-shado {
+  display: flex;
+  padding: 0 30px;
+  justify-content: center;
+  column-gap: 50px;
+  display: flex;
+}
+.experience-item {
+  max-width: 450px;
+  width: 100%;
+  padding: 20px;
+  padding-left: 20px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 40px gray;
+  margin-top: 5%;
+  margin-bottom: 5px;
+}
+#design-about {
+  border-left: 7px solid;
+  border-image: linear-gradient(salmon, tomato);
+  border-image-slice: 1;
+  padding-bottom: 48px;
+  /* font-weight: 700; */
+  border-radius: 20px;
+}
+#my-about {
+  border-left: 7px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
+  /* font-weight: 700; */
+  border-radius: 20px;
+}
+.experiences-item h2 {
+  padding-bottom: 15px;
+}
+.orange-color {
+  color: orange;
+  font-size: 30px;
+}
+.blue-color {
+  color: blue;
+  font-style: italic;
+}
